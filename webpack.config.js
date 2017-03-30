@@ -2,11 +2,10 @@
 let path = require('path');
 let webpack = require('webpack');
 
-let APP_PATH = path.resolve(__dirname, './src/app.jsx');
+let APP_PATH = path.resolve(__dirname, './src/main.jsx');
 let BUILD_PATH = path.resolve(__dirname, './build/');
 
 module.exports = {
-    devtool: "source-map",
     entry:APP_PATH,
     output: {
         path: BUILD_PATH,
@@ -16,9 +15,6 @@ module.exports = {
         //让模块不用再引入react中的React
         new webpack.ProvidePlugin({
             'React':'react',
-        }),
-        new webpack.ProvidePlugin({
-            'AM':'amazeui-react',
         })
     ],
     module: {
