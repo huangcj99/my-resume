@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 
 //引入组件
-import ResumeCss from './components/ResumeCss/resumeCss.jsx';
+import ResumeCssEditor from './components/ResumeCssEditor/resumeCssEditor.jsx';
 import ResumeHtml from './components/ResumeHtml/resumeHtml.jsx';
 
 class App extends React.Component {
@@ -10,16 +10,13 @@ class App extends React.Component {
     }
 
     componentDidMount() {
-        setTimeout(() => {
-            document.body.style.padding = '0';
-            document.body.style.margin = '0';
-        },1000)
+
     }
 
     render() {
         return (
             <div>
-                <ResumeCss/>
+                <ResumeCssEditor/>
                 <ResumeHtml/>
             </div>
         )

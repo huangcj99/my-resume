@@ -1,4 +1,7 @@
 import { connect } from 'react-redux';
+import Prism from "prismjs";
+
+import './resumeCssEditor.scss';
 
 let cssDate = [
     `/*
@@ -99,33 +102,66 @@ html{
 }
 `];
 
-let styles = `
-    
-    body {        
-        transition:background-color 3s linear,color 3s linear;
-        color:white;
-        background-color:black;
-    }
-`;
+let styles = [`
+/*
+ * Inspired by
+ * https://github.com/smallcatcat-joe/my-resume
+ * 大家好，我是smallcatcat
+ * 接下来我就写一份我的简历给你们吧
+ */
 
-class ResumeCss extends React.Component {
+/* 首先给所有元素加上过渡效果 */
+* {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+/*我们先来点背景吧*/
+html {
+    color:white;
+    background-color: #112b4f;
+}
+
+/*先写个编辑器容器吧*/
+.styleEditor {
+    border:1px solid white;
+    width:45vw;
+    height:85vh;
+    overflow: auto;
+}
+`,
+
+`
+/*
+ *让我想想还需要些什么
+ *对了!得先把简历显示出来
+ */
+`
+];
+
+class ResumeCssEditor extends React.Component {
     constructor(props) {
         super(props);
     }
 
     componentDidMount() {
+
         setInterval(() => {
             this.props.changeCssLen.bind(this)();
-        },40);
+        },30);
     }
 
     render() {
+        let styleHtml = Prism.highlight(styles.substr(0,this.props.cssLen),Prism.languages.css);
+        this.
         return (
-            <div>
-                {cssDate[0].substr(0,this.props.cssLen)}
+            <div className="styleEditor" ref="editor">
                 <style>
-                    {styles.substr(0,this.props.cssLen)}
+                    {
+                        styles.substr(0,this.props.cssLen)
+                    }
                 </style>
+                <div dangerouslySetInnerHTML={{__html: styleHtml}}/>
             </div>
         )
     }
@@ -151,4 +187,4 @@ let cssDispatchToProps = function (dispatch) {
 export default connect(
     cssStateToProps,
     cssDispatchToProps
-)(ResumeCss);
+)(ResumeCssEditor);

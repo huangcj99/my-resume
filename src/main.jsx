@@ -4,6 +4,7 @@ import Store from './redux/store/store.jsx';
 
 //引入样式
 import './common_style/reset.scss';
+import 'prismjs/themes/prism-okaidia.css'
 
 //引入组建
 import App from './app.jsx';

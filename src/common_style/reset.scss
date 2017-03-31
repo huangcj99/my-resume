@@ -1,3 +1,13 @@
+* {
+  -webkit-transition: all .8s ease-out;
+  transition: all .8s ease-out;
+}
+
+* :not(body) {
+  white-space: pre;
+}
+
 body {
-  transition: padding 1s ease-out,margin 1s ease-out;
+  padding: 0;
+  margin: 0;
 }

@@ -25,12 +25,11 @@ module.exports = {
                 loaders: ['babel-loader?presets[]=es2015,presets[]=stage-0,presets[]=react']
             },{
                 test: /\.css$/,
-                exclude: /node_modules/,
-                loader: 'style-loader!css-loader?modules'
+                loader: 'style-loader!css-loader'
             },{
                 test: /\.scss$/,
                 exclude: /node_modules/,
-                loader: 'style-loader!css-loader?modules!sass-loader'
+                loader: 'style-loader!css-loader!sass-loader'
             }
         ]
 

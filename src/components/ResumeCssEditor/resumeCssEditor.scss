@@ -1,0 +1,32 @@
+/*
+* Inspired by
+* https://github.com/smallcatcat-joe/my-resume
+* 大家好，我是smallcatcat
+* 接下来我就写一份我的简历给你们吧
+*/
+
+/* 首先给所有元素加上过渡效果 */
+* {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+/*我们先来点背景吧*/
+html {
+  color:black;
+  background-color: white;
+}
+
+/*先写个编辑器容器吧*/
+.styleEditor {
+  border:0 solid white;
+  width:100vw;
+  height:100vh;
+}
+
+.styleContainer {
+
+}
+
+
+
