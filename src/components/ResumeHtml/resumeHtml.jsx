@@ -2,6 +2,7 @@ import { connect } from 'react-redux';
 
 import './resumeHtml.scss';
 
+//简历视图的数据
 let uiData = {
     imgUrl:'',
     author:'smallcatcat',
@@ -69,18 +70,19 @@ class ResumeHtml extends React.Component {
     }
 }
 
-let htmlStateToProps = function (state) {
-    return {
+// let htmlStateToProps = function (state) {
+//     return {
+//
+//     }
+// };
+//
+// let htmlDispatchToProps = function (dispatch) {
+//     return {
+//
+//     }
+// };
 
-    }
-};
-
-let htmlDispatchToProps = function (dispatch) {
-    return {
-
-    }
-};
 export default connect(
-    htmlStateToProps,
-    htmlDispatchToProps
+    // htmlStateToProps,
+    // htmlDispatchToProps
 )(ResumeHtml);

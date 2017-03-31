@@ -1,5 +1,4 @@
 let states = {
-    currentStylePart:0,
     currentStyleLen:0
 };
 

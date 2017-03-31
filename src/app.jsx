@@ -19,18 +19,19 @@ class App extends React.Component {
     }
 }
 
-let appStateToProps = function (state) {
-    return {
+// let appStateToProps = function (state) {
+//     return {
+//
+//     }
+// };
+//
+// let appDispatchToProps = function (dispatch) {
+//     return {
+//
+//     }
+// };
 
-    }
-};
-
-let appDispatchToProps = function (dispatch) {
-    return {
-
-    }
-};
 export default connect(
-    appStateToProps,
-    appDispatchToProps
+    // appStateToProps,
+    // appDispatchToProps
 )(App);
