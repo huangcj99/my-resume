@@ -1,6 +1,6 @@
 let states = {
-
-    cssLen:0
+    currentStylePart:0,
+    currentStyleLen:0
 };
 
 export default states;
