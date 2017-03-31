@@ -44,7 +44,9 @@ html {
  */
 .myResume {
   display: block;
-  opacity:1
+  opacity:1;
+  color:white;
+  background-color:#112B4F;
 }
 /*调整一下位置*/
 .myResume {
@@ -90,7 +92,10 @@ html{
 `
 ];
 
-let styleHtml = '';
+let preStylePart = '';
+let stylePart = '';
+let currentStyle = '';
+let currentStyleHtml = '';
 
 class ResumeCssEditor extends React.Component {
     constructor(props) {
@@ -99,10 +104,31 @@ class ResumeCssEditor extends React.Component {
 
     showStylePart(part) {
         return new Promise((resolve, reject) => {
-            console.log('1');
-            setTimeout(() => {
-                resolve();
-            },2000)
+            stylePart = preStylePart + styles[part];
+            let styleLen = stylePart.length;
+
+            let circleToSubstr = setInterval(() => {
+                //获取此前长度
+                let len = this.props.currentStyleLen;
+
+                //dispatch改变styleLen
+                currentStyle = stylePart.substr(0,len);
+                currentStyleHtml = Prism.highlight(currentStyle, Prism.languages.css);
+                this.props.changeStyleLen.bind(this)();
+
+                //始终保持滚动条在最底部
+                this.refs.editor.scrollTop = 100000;
+
+                //判断是否结束第一段style
+                if (styleLen === len) {
+                    clearInterval(circleToSubstr);
+                    preStylePart = stylePart;
+
+                    setTimeout(() => {
+                        resolve();
+                    },2000)
+                }
+            },5)
         })
     }
 
@@ -116,15 +142,12 @@ class ResumeCssEditor extends React.Component {
     }
 
     render() {
-        let styleHtml = Prism.highlight(styles[0],Prism.languages.css);
         return (
             <div className="styleEditor" ref="editor">
                 <style>
-                    {
-
-                    }
+                    {currentStyle}
                 </style>
-                <div dangerouslySetInnerHTML={{__html: styleHtml}}/>
+                <div dangerouslySetInnerHTML={{__html: currentStyleHtml}}/>
             </div>
         )
     }

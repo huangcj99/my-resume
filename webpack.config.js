@@ -6,7 +6,7 @@ let APP_PATH = path.resolve(__dirname, './src/main.jsx');
 let BUILD_PATH = path.resolve(__dirname, './build/');
 
 module.exports = {
-    entry:APP_PATH,
+    entry:['babel-polyfill', APP_PATH],
     output: {
         path: BUILD_PATH,
         filename: 'bundle.js',
@@ -22,7 +22,7 @@ module.exports = {
             {
                 test: /\.(jsx|js)$/,
                 exclude: /node_modules/,
-                loaders: ['babel-loader?presets[]=es2015,presets[]=stage-0,presets[]=react']
+                loaders: ['babel-loader?presets[]=es2015,presets[]=stage-0,presets[]=stage-3,presets[]=react']
             },{
                 test: /\.css$/,
                 loader: 'style-loader!css-loader'
