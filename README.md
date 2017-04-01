@@ -1,6 +1,12 @@
 react实现动态简历
 ---------------
 
+项目技术栈:
+```js
+react + redux + react-redux + webpack2 + sass + ES6/7 + prismjs
+```
+其实这里没有必要用到redux啦-.-,毕竟项目不大,怪我懒咯-.-
+
 使用
 
 ```js
@@ -59,5 +65,4 @@ let currentStyleHtml = Prism.highlight(currentStyle, Prism.languages.css);
 this.refs.editor.scrollTop = 100000;
 ...
 ```
-
 
