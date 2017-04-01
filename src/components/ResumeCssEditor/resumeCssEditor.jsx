@@ -1,3 +1,4 @@
+import { Component } from 'react';
 import { connect } from 'react-redux';
 import Prism from "prismjs";
 
@@ -51,6 +52,10 @@ html {
     color:white;
     background-color:#112B4F;
 }
+/*还有a标签的字体颜色*/
+.myResume a {
+    color:white;
+}
 /*调整一下位置*/
 .myResume {
     margin:10px 150px 0 0;
@@ -98,7 +103,7 @@ let stylePart = '';
 let currentStyle = '';
 let currentStyleHtml = '';
 
-class ResumeCssEditor extends React.Component {
+class ResumeCssEditor extends Component {
     constructor(props) {
         super(props);
     }

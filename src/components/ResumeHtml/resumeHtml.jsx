@@ -1,10 +1,10 @@
+import { Component } from 'react';
 import { connect } from 'react-redux';
 
 import './resumeHtml.scss';
 
 //简历视图的数据
 let uiData = {
-    imgUrl:'',
     author:'smallcatcat',
     work:'兼职一下nodejs的前端工程师-.-',
     skill:{
@@ -25,7 +25,7 @@ let uiData = {
     }
 };
 
-class ResumeHtml extends React.Component {
+class ResumeHtml extends Component {
     constructor(props) {
         super(props);
     }
@@ -34,7 +34,6 @@ class ResumeHtml extends React.Component {
         return (
             <div className="myResume">
                 <header>
-                    <img src="" alt=""/>
                     <h2>{uiData.author}</h2>
                     <p className="work">{uiData.work}</p>
                 </header>
@@ -58,7 +57,9 @@ class ResumeHtml extends React.Component {
                                 return (
                                     <li key={idx}>
                                         <h5>{content.title}</h5>
-                                        <p>{content.link}</p>
+                                        <p>
+                                            <a href={content.link}>{content.link}</a>
+                                        </p>
                                     </li>
                                 )
                             })
