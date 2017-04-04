@@ -1,11 +1,14 @@
 react实现动态简历
 ---------------
 
+前天发现一个挺有意思的[网站](http://strml.net/),大致的效果就跟我的简历demo差不多,
+在页面将自己书写的css代码慢慢展现出来,同步更改页面的样式,并且css代码具有高亮效果.
+
 项目技术栈:
 ```js
 react + redux + react-redux + webpack2 + sass + ES6/7 + prismjs
 ```
-其实这里没有必要用到redux啦-.-,毕竟项目不大,怪我懒咯-.-
+其实这里没有必要用到redux啦-.-,毕竟项目不大,我是直接把我之前的react项目的目录拉了过来,怪我懒咯-.-
 
 还有就是-.-请用chrome打开,因为用到了perspective这个CSS3的透视属性,火狐不支持.
 
@@ -18,8 +21,6 @@ react + redux + react-redux + webpack2 + sass + ES6/7 + prismjs
 4.打开浏览器后输入localhost:8080查看效果
 ```
 
-前天发现一个挺有意思的[网站](http://strml.net/),大致的效果就跟我的简历demo差不多,
-在页面将自己书写的css代码慢慢展现出来,同步更改页面的样式,并且css代码具有高亮效果,
 下面简述一下这种效果的核心实现吧
 
 在定时器内部,每轮都向store中发起一个dispatch,更改len的长度,
