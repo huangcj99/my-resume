@@ -7,7 +7,7 @@ const Router = require('koa-router');
 const app = Koa();
 const router = new Router();
 
-let mongoose = require('./init/mongoose');
+// let mongoose = require('./init/mongoose');
 let states = require('./routes/states');
 
 //静态处理路由挂载到中间件上

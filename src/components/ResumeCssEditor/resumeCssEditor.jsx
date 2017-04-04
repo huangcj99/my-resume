@@ -6,12 +6,11 @@ import Prism from "prismjs";
 import './resumeCssEditor.scss';
 
 //editor与resume的动态样式(数组)
-let styles = [`
-/*
+let styles = [`/*
  * Inspired by
  * https://github.com/smallcatcat-joe/my-resume
  * 大家好，我是smallcatcat
- * 接下来我就写一份我的简历给你们吧
+ * 接下来我展示一下书写简历的过程吧
  */
 
 /* 首先给所有元素加上过渡效果 */
@@ -95,6 +94,11 @@ html{
     transform: rotateY(10deg) translateX(20px) translateZ(-100px) ;
     -webkit-transform: rotateY(10deg) translateX(20px) translateZ(-80px) ;
 }
+`,
+`
+/*
+ *如果你还喜欢的话,可以进入我的github,fork一下我的项目哦
+ */
 `
 ];
 
@@ -139,19 +143,20 @@ class ResumeCssEditor extends Component {
 
                     setTimeout(() => {
                         resolve();
-                    },2000)
+                    },1500)
                 }
             },40)
         })
     }
 
     componentDidMount() {
-        //初次渲染后开始执行style加载
+        //初次渲染后开始加载stylePart
         (async function () {
             let _ctx = this;
             await _ctx.showStylePart(0);
             await _ctx.showStylePart(1);
             await _ctx.showStylePart(2);
+            await _ctx.showStylePart(3);
         }.bind(this))();
     }
 
