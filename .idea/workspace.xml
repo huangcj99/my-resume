@@ -80,12 +80,12 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="210">
-                <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+                <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
                 <folding>
-                  <marker date="1491295693329" expanded="true" signature="494:571" ph="{...}" />
-                  <marker date="1491295693329" expanded="true" signature="690:958" ph="{...}" />
-                  <marker date="1491295693329" expanded="true" signature="721:942" ph="&lt;div/&gt;" />
-                  <marker date="1491295693329" expanded="true" signature="780:847" ph="&lt;style/&gt;" />
+                  <marker date="1491295855250" expanded="true" signature="534:611" ph="{...}" />
+                  <marker date="1491295855250" expanded="true" signature="730:998" ph="{...}" />
+                  <marker date="1491295855250" expanded="true" signature="761:982" ph="&lt;div/&gt;" />
+                  <marker date="1491295855250" expanded="true" signature="820:887" ph="&lt;style/&gt;" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -505,12 +505,12 @@
       <workItem from="1491008659204" duration="1797000" />
       <workItem from="1491033606376" duration="3794000" />
       <workItem from="1491111854344" duration="515000" />
-      <workItem from="1491291288249" duration="3850000" />
+      <workItem from="1491291288249" duration="4094000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121941000" />
+    <option name="totallyTimeSpent" value="122185000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -523,7 +523,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="989" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19479166" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -532,7 +532,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35857987" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3526627" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3526627" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -788,12 +788,12 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="210">
-            <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
             <folding>
-              <marker date="1491295693329" expanded="true" signature="494:571" ph="{...}" />
-              <marker date="1491295693329" expanded="true" signature="690:958" ph="{...}" />
-              <marker date="1491295693329" expanded="true" signature="721:942" ph="&lt;div/&gt;" />
-              <marker date="1491295693329" expanded="true" signature="780:847" ph="&lt;style/&gt;" />
+              <marker date="1491295855250" expanded="true" signature="534:611" ph="{...}" />
+              <marker date="1491295855250" expanded="true" signature="730:998" ph="{...}" />
+              <marker date="1491295855250" expanded="true" signature="761:982" ph="&lt;div/&gt;" />
+              <marker date="1491295855250" expanded="true" signature="820:887" ph="&lt;style/&gt;" />
             </folding>
           </first_editor>
           <second_editor />
