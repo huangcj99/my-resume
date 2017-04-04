@@ -15,6 +15,11 @@ module.exports = {
         //让模块不用再引入react中的React
         new webpack.ProvidePlugin({
             'React':'react',
+        }),
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                warnings: false
+            }
         })
     ],
     module: {
