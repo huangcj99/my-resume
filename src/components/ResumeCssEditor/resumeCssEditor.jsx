@@ -145,7 +145,7 @@ class ResumeCssEditor extends Component {
                         resolve();
                     },1500)
                 }
-            },40)
+            },30)
         })
     }
 

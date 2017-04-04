@@ -7,6 +7,8 @@ react + redux + react-redux + webpack2 + sass + ES6/7 + prismjs
 ```
 其实这里没有必要用到redux啦-.-,毕竟项目不大,怪我懒咯-.-
 
+还有就是-.-请用chrome打开,因为用到了perspective这个CSS3的透视属性,火狐不支持.
+
 使用
 
 ```js
