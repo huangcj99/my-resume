@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20478f7c-fcc1-4df4-8b80-67bb4886a78c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/bundle.js" afterPath="$PROJECT_DIR$/build/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ResumeCssEditor/resumeCssEditor.jsx" afterPath="$PROJECT_DIR$/src/components/ResumeCssEditor/resumeCssEditor.jsx" />
-    </list>
+    <list default="true" id="20478f7c-fcc1-4df4-8b80-67bb4886a78c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -50,7 +44,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resumeCssEditor.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="resumeCssEditor.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/ResumeCssEditor/resumeCssEditor.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="377">
@@ -61,34 +55,6 @@
                 <marker date="1491295133529" expanded="true" signature="3318:3497" ph="..." />
                 <marker date="1491295133529" expanded="true" signature="3342:3402" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="210">
-                <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-                <folding>
-                  <marker date="1491295855250" expanded="true" signature="534:611" ph="{...}" />
-                  <marker date="1491295855250" expanded="true" signature="730:998" ph="{...}" />
-                  <marker date="1491295855250" expanded="true" signature="761:982" ph="&lt;div/&gt;" />
-                  <marker date="1491295855250" expanded="true" signature="820:887" ph="&lt;style/&gt;" />
-                </folding>
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -505,12 +471,12 @@
       <workItem from="1491008659204" duration="1797000" />
       <workItem from="1491033606376" duration="3794000" />
       <workItem from="1491111854344" duration="515000" />
-      <workItem from="1491291288249" duration="4094000" />
+      <workItem from="1491291288249" duration="4136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122185000" />
+    <option name="totallyTimeSpent" value="122227000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -699,14 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/states.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -758,23 +716,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ResumeCssEditor/resumeCssEditor.jsx">
+    <entry file="file://$PROJECT_DIR$/build/bundle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="147" column="15" lean-forward="false" selection-start-line="147" selection-start-column="15" selection-end-line="147" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-            <element signature="e#183#1532#0" expanded="false" />
-            <marker date="1491295133529" expanded="true" signature="3318:3497" ph="..." />
-            <marker date="1491295133529" expanded="true" signature="3342:3402" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -797,6 +742,27 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ResumeCssEditor/resumeCssEditor.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="147" column="15" lean-forward="false" selection-start-line="147" selection-start-column="15" selection-end-line="147" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#183#1532#0" expanded="false" />
+            <marker date="1491295133529" expanded="true" signature="3318:3497" ph="..." />
+            <marker date="1491295133529" expanded="true" signature="3342:3402" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
